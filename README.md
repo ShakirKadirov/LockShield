@@ -18,13 +18,13 @@ LockShield - это мой пэт-проект, созданный в учебн
 
 ## Технологии и Инструменты
 
-Язык Программирования: Swift
-Фреймворк: UIKit
-Инструмент Разработки: Xcode
+- Язык Программирования: Swift
+- Фреймворк: UIKit
+- Инструмент Разработки: Xcode
 
 ## Структура Проекта
 
-LoginViewController: Экран для ввода учетных данных.
-SignUpViewController: Экран для регистрации новых пользователей.
-ForgetPasswordViewController: Экран для восстановления пароля.
-HomeViewController: Главный экран после успешной авторизации.
+- LoginViewController: Экран для ввода учетных данных.
+- SignUpViewController: Экран для регистрации новых пользователей.
+- ForgetPasswordViewController: Экран для восстановления пароля.
+- HomeViewController: Главный экран после успешной авторизации.

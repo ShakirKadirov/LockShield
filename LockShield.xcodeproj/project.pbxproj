@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		C7ACCE0C2B8AF54E00FFECD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE0B2B8AF54E00FFECD9 /* AppDelegate.swift */; };
 		C7ACCE0E2B8AF54E00FFECD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE0D2B8AF54E00FFECD9 /* SceneDelegate.swift */; };
-		C7ACCE102B8AF54E00FFECD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE0F2B8AF54E00FFECD9 /* ViewController.swift */; };
-		C7ACCE132B8AF54E00FFECD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACCE112B8AF54E00FFECD9 /* Main.storyboard */; };
+		C7ACCE102B8AF54E00FFECD9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE0F2B8AF54E00FFECD9 /* LoginViewController.swift */; };
 		C7ACCE152B8AF54F00FFECD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ACCE142B8AF54F00FFECD9 /* Assets.xcassets */; };
 		C7ACCE182B8AF54F00FFECD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACCE162B8AF54F00FFECD9 /* LaunchScreen.storyboard */; };
+		C7ACCE202B8AF6A100FFECD9 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE1F2B8AF6A100FFECD9 /* SingUpViewController.swift */; };
+		C7ACCE222B8AFE6000FFECD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE212B8AFE6000FFECD9 /* HomeViewController.swift */; };
+		C7ACCE242B8B05F700FFECD9 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACCE232B8B05F700FFECD9 /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7ACCE082B8AF54E00FFECD9 /* LockShield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockShield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ACCE0B2B8AF54E00FFECD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7ACCE0D2B8AF54E00FFECD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7ACCE0F2B8AF54E00FFECD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7ACCE122B8AF54E00FFECD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7ACCE0F2B8AF54E00FFECD9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C7ACCE142B8AF54F00FFECD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7ACCE172B8AF54F00FFECD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7ACCE192B8AF54F00FFECD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ACCE1F2B8AF6A100FFECD9 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		C7ACCE212B8AFE6000FFECD9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7ACCE232B8B05F700FFECD9 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				C7ACCE0B2B8AF54E00FFECD9 /* AppDelegate.swift */,
 				C7ACCE0D2B8AF54E00FFECD9 /* SceneDelegate.swift */,
-				C7ACCE0F2B8AF54E00FFECD9 /* ViewController.swift */,
-				C7ACCE112B8AF54E00FFECD9 /* Main.storyboard */,
+				C7ACCE0F2B8AF54E00FFECD9 /* LoginViewController.swift */,
+				C7ACCE212B8AFE6000FFECD9 /* HomeViewController.swift */,
+				C7ACCE1F2B8AF6A100FFECD9 /* SingUpViewController.swift */,
+				C7ACCE232B8B05F700FFECD9 /* ForgetPasswordViewController.swift */,
 				C7ACCE142B8AF54F00FFECD9 /* Assets.xcassets */,
 				C7ACCE162B8AF54F00FFECD9 /* LaunchScreen.storyboard */,
 				C7ACCE192B8AF54F00FFECD9 /* Info.plist */,
@@ -127,7 +133,6 @@
 			files = (
 				C7ACCE182B8AF54F00FFECD9 /* LaunchScreen.storyboard in Resources */,
 				C7ACCE152B8AF54F00FFECD9 /* Assets.xcassets in Resources */,
-				C7ACCE132B8AF54E00FFECD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7ACCE102B8AF54E00FFECD9 /* ViewController.swift in Sources */,
+				C7ACCE222B8AFE6000FFECD9 /* HomeViewController.swift in Sources */,
+				C7ACCE102B8AF54E00FFECD9 /* LoginViewController.swift in Sources */,
 				C7ACCE0C2B8AF54E00FFECD9 /* AppDelegate.swift in Sources */,
+				C7ACCE202B8AF6A100FFECD9 /* SingUpViewController.swift in Sources */,
+				C7ACCE242B8B05F700FFECD9 /* ForgetPasswordViewController.swift in Sources */,
 				C7ACCE0E2B8AF54E00FFECD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7ACCE112B8AF54E00FFECD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7ACCE122B8AF54E00FFECD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7ACCE162B8AF54F00FFECD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +297,9 @@
 				INFOPLIST_FILE = LockShield/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +307,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakirkadirov.LockShield;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +329,9 @@
 				INFOPLIST_FILE = LockShield/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +339,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakirkadirov.LockShield;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

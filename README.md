@@ -1,8 +1,9 @@
 # LockShield 
 
-<img src="https://github.com/ShakirKadirov/LockShield/assets/138371102/9f63f95c-c629-4ea0-a06f-603ee78b853b" width="50%" alt="Описание изображения">
-<img width="460" alt="Снимок экрана 2024-02-25 в 12 10 49" src="https://github.com/ShakirKadirov/LockShield/assets/138371102/bb0237b7-90fa-4371-ac5b-f3d9df56f9ab" width="50%" alt="Описание изображения">
+<img src="https://github.com/ShakirKadirov/LockShield/assets/138371102/9f63f95c-c629-4ea0-a06f-603ee78b853b" width="30%" alt="Описание изображения">
+<img width="460" alt="Снимок экрана 2024-02-25 в 12 10 49" src="https://github.com/ShakirKadirov/LockShield/assets/138371102/bb0237b7-90fa-4371-ac5b-f3d9df56f9ab" width="30%" alt="Описание изображения">
 
+<img width="506" alt="image" src="https://github.com/ShakirKadirov/LockShield/assets/138371102/99474739-46c4-4cfa-a061-14d2514574ac" width="30%">
 
 ## Описание
 
